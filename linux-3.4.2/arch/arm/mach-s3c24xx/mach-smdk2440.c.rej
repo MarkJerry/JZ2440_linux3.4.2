@@ -1,0 +1,11 @@
+--- arch/arm/mach-s3c24xx/mach-smdk2440.c	2012-06-09 23:36:33.000000000 +0800
++++ arch/arm/mach-s3c24xx/mach-smdk2440.c	2013-10-18 10:52:01.896147633 +0800
+@@ -162,7 +162,7 @@
+ static void __init smdk2440_map_io(void)
+ {
+ 	s3c24xx_init_io(smdk2440_iodesc, ARRAY_SIZE(smdk2440_iodesc));
+-	s3c24xx_init_clocks(16934400);
++	s3c24xx_init_clocks(12000000);
+ 	s3c24xx_init_uarts(smdk2440_uartcfgs, ARRAY_SIZE(smdk2440_uartcfgs));
+ }
+ 

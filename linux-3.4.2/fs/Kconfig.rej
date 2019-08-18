@@ -1,0 +1,10 @@
+--- fs/Kconfig	2012-06-09 23:36:33.000000000 +0800
++++ fs/Kconfig	2013-10-18 10:52:01.907938880 +0800
+@@ -203,6 +203,7 @@
+ source "fs/befs/Kconfig"
+ source "fs/bfs/Kconfig"
+ source "fs/efs/Kconfig"
++source "fs/yaffs2/Kconfig"
+ source "fs/jffs2/Kconfig"
+ # UBIFS File system configuration
+ source "fs/ubifs/Kconfig"
